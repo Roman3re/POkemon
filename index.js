@@ -85,10 +85,10 @@ function pokemonLi(pokemon, inMain) {
         <p>Weight: ${pokemon.weight} kg</p>
         ${
 					inMain
-						? `<button class="fav">❤️ В избранное</button>
-               <button class="del">🗑️ Удалить</button>`
-						: `<button class="back">↩️ Вернуть</button>
-               <button class="del">🗑️ Удалить</button>`
+						? `<button class="fav">❤️ В обране</button>
+               <button class="del">🗑️ Видалити</button>`
+						: `<button class="back">↩️ Повернути</button>
+               <button class="del">🗑️Видалити</button>`
 				}
       </div>
     </div>`
