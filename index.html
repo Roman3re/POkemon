@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+  
+
+  <header>
+    <img id="POKEMON_IMG" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" alt="">
+  </header>
+
+  <section>
+<ul id="before">
+  <li>
+    <input id="name" type="text">
+    <p>Name / ID</p>
+  </li>
+</ul>
+<button id="create">create</button>
+
+<input id="search" type="text" placeholder="🔍 Пошук по імені..." />
+
+<section id="pokemon-section" style="display:none">
+  <h2>Your Pokemons</h2>
+  <ul id="your-pokemons"></ul>
+
+  <h2>Your favourite Pokemons</h2>
+  <ul id="your-favourite-pokemons"></ul>
+</section>
+  <script src="index.js"></script>
+</body>
+</html>
